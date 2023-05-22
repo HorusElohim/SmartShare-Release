@@ -1,49 +1,63 @@
-# SmartShare Alpha V1.1
+# Smart Share Application 
 
 ![SmartShare-Logo](https://user-images.githubusercontent.com/74312168/120508419-fcac7180-c3c7-11eb-9c04-24f5f425b500.png)
 
-SmartShare is a peer2peer full Torrent client based on libtorrent.
-The main aim behied is to made accesible sharing huge files to everyone without passing by any third party application. 
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Libtorrent](#libtorrent)
+4. [Kademlia](#kademlia)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Configuration](#configuration)
+8. [Contribute](#contribute)
+9. [License](#license)
 
-The creation of .smartshare is easy and make possible to only the receiver of this file to start downloading from the creator.
-It use behiend the Kademlia network.
+## Introduction
 
-### Libtorrent 
-libtorrent is a feature complete C++ bittorrent implementation focusing on efficiency and scalability. It runs on embedded devices as well as desktops. It boasts a well documented library interface that is easy to use. It comes with a simple bittorrent client demonstrating the use of the library.
+Smart Share is a dynamic, peer-to-peer, full torrent client built upon libtorrent and designed with the purpose of making the sharing of large files accessible to everyone without the need for third-party applications. At its core, it's an experience aiming to redefine the way you share and interact with files in the digital space.
 
-screenshot of libtorrent's client_test
-The main goals of libtorrent are:
+## Features
 
-to be CPU efficient
-to be memory efficient
-to be very easy to use
+- **Peer-to-Peer Torrenting**: Leverage the power of decentralized sharing with our full torrent client, focusing on efficiency and scalability.
 
-[Libtorrent](https://www.libtorrent.org/)
+- **Unique .smartshare Files**: Easily create .smartshare files that make it possible for only the receiver to initiate downloading from the creator, enhancing privacy and control over shared content.
 
+- **Utilizes Kademlia Network**: Smart Share makes efficient use of the Kademlia decentralized network, ensuring fast and reliable file sharing.
 
-### Kademlia 
-Kademlia is a distributed hash table for decentralized peer-to-peer computer networks designed by Petar Maymounkov and David Mazières in 2002.[1][2] It specifies the structure of the network and the exchange of information through node lookups. Kademlia nodes communicate among themselves using UDP. A virtual or overlay network is formed by the participant nodes. Each node is identified by a number or node ID. The node ID serves not only as identification, but the Kademlia algorithm uses the node ID to locate values (usually file hashes or keywords). In fact, the node ID provides a direct map to file hashes and that node stores information on where to obtain the file or resource.
+- **Easy to Use & Configurable**: With a simple drag and drop interface, sharing files has never been easier. Smart Share is also customizable, allowing you to adjust settings and alter the UI for a personalized touch through a YAML configuration file.
 
-When searching for some value, the algorithm needs to know the associated key and explores the network in several steps. Each step will find nodes that are closer to the key until the contacted node returns the value or no more closer nodes are found. This is very efficient: like many other DHTs, Kademlia contacts only {\displaystyle O(\log(n))}O(\log(n)) nodes during the search out of a total of {\displaystyle n}n nodes in the system.
+## Libtorrent 
 
-Further advantages are found particularly in the decentralized structure, which increases the resistance against a denial-of-service attack. Even if a whole set of nodes is flooded, this will have limited effect on network availability, since the network will recover itself by knitting the network around these "holes".
+Libtorrent is a feature-complete C++ BitTorrent implementation focusing on efficiency and scalability. It's capable of running on both embedded devices and desktops. Its well-documented library interface is easy to use and even comes with a simple BitTorrent client demonstrating the library's use.
 
-[Kademlia](https://en.wikipedia.org/wiki/Kademlia)
+The main goals of libtorrent are to be CPU efficient, memory efficient, and very easy to use. For more information, visit [Libtorrent](https://www.libtorrent.org/).
 
+## Kademlia 
 
+Kademlia is a distributed hash table for decentralized peer-to-peer computer networks. It dictates the structure of the network and the exchange of information through node lookups, thereby increasing resistance against denial-of-service attacks. For more detailed information, visit [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
 
-## How to install SmartShare 
-https://user-images.githubusercontent.com/74312168/120505780-97578100-c3c5-11eb-93fa-16a7178787fe.mp4
+## Installation
 
+A detailed walk-through video for the installation process is provided below:
 
-## How to download a Torrent or a .smartshare file 
-https://user-images.githubusercontent.com/74312168/120506053-dbe31c80-c3c5-11eb-98f5-78fb24e656d3.mp4
+[Installation Video](https://user-images.githubusercontent.com/74312168/120505780-97578100-c3c5-11eb-93fa-16a7178787fe.mp4)
 
+## Usage
 
-## How to create a .smartshare file and then start sharing it 
-https://user-images.githubusercontent.com/74312168/120506676-72174280-c3c6-11eb-9ef0-a9a964515a99.mp4
+Using Smart Share is as simple as dragging and dropping a file into the application. Watch the videos below for a detailed guide:
 
+[How to download a Torrent or a .smartshare file](https://user-images.githubusercontent.com/74312168/120506053-dbe31c80-c3c5-11eb-98f5-78fb24e656d3.mp4)
 
+[How to create a .smartshare file and start sharing it](https://user-images.githubusercontent.com/74312168/120506676-72174280-c3c6-11eb-9ef0-a9a964515a99.mp4)
+
+## Configuration
+
+Smart Share allows for comprehensive customization through a YAML configuration file. This includes support for the Cadmilla Deviation D Distributed Hash Table. More information about customizing your Smart Share experience will be provided soon.
+
+## Contribute
+
+We welcome external contributions to the project in the form
 
 
 
