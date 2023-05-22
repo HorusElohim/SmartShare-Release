@@ -40,10 +40,6 @@ https://user-images.githubusercontent.com/74312168/120505780-97578100-c3c5-11eb-
 https://user-images.githubusercontent.com/74312168/120506053-dbe31c80-c3c5-11eb-98f5-78fb24e656d3.mp4
 
 
-## Hot to set your IP needed to add the DHT node ip in generated .smartshare file. 
-https://user-images.githubusercontent.com/74312168/120506508-46945800-c3c6-11eb-8243-d4cc2fb0be4e.mp4
-
-
 ## How to create a .smartshare file and then start sharing it 
 https://user-images.githubusercontent.com/74312168/120506676-72174280-c3c6-11eb-9ef0-a9a964515a99.mp4
 
