@@ -1,6 +1,6 @@
 # Smart Share Application 
 
-![SmartShare-Logo](https://user-images.githubusercontent.com/74312168/120508419-fcac7180-c3c7-11eb-9c04-24f5f425b500.png)
+<img src="https://github.com/HorusElohim/SmartShare-Release/assets/74312168/70ce6efb-b2e0-42ea-a44e-51754b214549" width="360" height="360">
 
 ## Table of Contents
 1. [Introduction](#introduction)
