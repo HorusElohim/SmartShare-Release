@@ -36,31 +36,3 @@ The main goals of libtorrent are to be CPU efficient, memory efficient, and very
 ## Kademlia 
 
 Kademlia is a distributed hash table for decentralized peer-to-peer computer networks. It dictates the structure of the network and the exchange of information through node lookups, thereby increasing resistance against denial-of-service attacks. For more detailed information, visit [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
-
-## Installation
-
-A detailed walk-through video for the installation process is provided below:
-
-[Installation Video](https://user-images.githubusercontent.com/74312168/120505780-97578100-c3c5-11eb-93fa-16a7178787fe.mp4)
-
-## Usage
-
-Using Smart Share is as simple as dragging and dropping a file into the application. Watch the videos below for a detailed guide:
-
-[How to download a Torrent or a .smartshare file](https://user-images.githubusercontent.com/74312168/120506053-dbe31c80-c3c5-11eb-98f5-78fb24e656d3.mp4)
-
-[How to create a .smartshare file and start sharing it](https://user-images.githubusercontent.com/74312168/120506676-72174280-c3c6-11eb-9ef0-a9a964515a99.mp4)
-
-## Configuration
-
-Smart Share allows for comprehensive customization through a YAML configuration file. This includes support for the Cadmilla Deviation D Distributed Hash Table. More information about customizing your Smart Share experience will be provided soon.
-
-## Contribute
-
-We welcome external contributions to the project in the form
-
-
-
-
-
-
