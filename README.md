@@ -1,12 +1,14 @@
 # Smart Share Application 
 
-<img src="https://github.com/HorusElohim/SmartShare-Release/assets/74312168/70ce6efb-b2e0-42ea-a44e-51754b214549" width="360" height="360">
+<img src= "https://github.com/HorusElohim/SmartShare-Release/assets/74312168/37090b7f-847f-4df6-b227-dff95d9491ef" width="360" height="360">
+
+
 
 ## Table of Contents
 1. [Introduction](#introduction)
 2. [Features](#features)
 3. [Libtorrent](#libtorrent)
-4. [Kademlia](#kademlia)
+4. [DHT](#kademlia)
 5. [Installation](#installation)
 6. [Usage](#usage)
 7. [Configuration](#configuration)
@@ -33,6 +35,6 @@ Libtorrent is a feature-complete C++ BitTorrent implementation focusing on effic
 
 The main goals of libtorrent are to be CPU efficient, memory efficient, and very easy to use. For more information, visit [Libtorrent](https://www.libtorrent.org/).
 
-## Kademlia 
+## DHT 
 
 Kademlia is a distributed hash table for decentralized peer-to-peer computer networks. It dictates the structure of the network and the exchange of information through node lookups, thereby increasing resistance against denial-of-service attacks. For more detailed information, visit [Kademlia](https://en.wikipedia.org/wiki/Kademlia).
